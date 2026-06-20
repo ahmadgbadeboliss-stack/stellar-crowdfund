@@ -1,0 +1,22 @@
+# Rust / Soroban
+contracts/target/
+**/*.rs.bk
+*.wasm.d
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+*.log
+npm-debug.log*
+
+# Tooling / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+rustup-init.exe
+contracts/deploy_*.log
+
+# Keep lockfiles and wasm-less build outputs out but track configs
