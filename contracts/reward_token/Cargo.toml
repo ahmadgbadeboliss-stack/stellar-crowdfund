@@ -1,0 +1,21 @@
+[package]
+name = "reward_token"
+version = "0.1.0"
+edition = "2021"
+authors = ["risein-l3"]
+license = "MIT"
+description = "A minimal SEP-41-style fungible reward token minted to crowdfunding backers."
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[features]
+testutils = ["soroban-sdk/testutils"]
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
