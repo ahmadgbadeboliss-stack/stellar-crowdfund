@@ -1,0 +1,21 @@
+[package]
+name = "crowdfund"
+version = "0.1.0"
+edition = "2021"
+authors = ["risein-l3"]
+license = "MIT"
+description = "Crowdfunding campaigns with deadlines, goals, refunds, and cross-contract reward minting."
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+# Pull in the reward token as a dev-dependency so integration tests can register
+# the real contract and exercise genuine cross-contract calls.
+reward_token = { path = "../reward_token", features = ["testutils"] }
