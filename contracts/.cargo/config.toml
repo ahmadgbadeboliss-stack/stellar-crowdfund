@@ -1,0 +1,10 @@
+# Host-target (Windows GNU) linker workaround.
+#
+# `cargo test` compiles the contract crates for the host and, because they are
+# `cdylib`, links a .dll we never actually load. On the windows-gnu toolchain
+# GNU ld auto-exports every symbol, and soroban-env-host is large enough to blow
+# past the 16-bit export-ordinal limit ("export ordinal too large"). Excluding
+# all symbols from that unused test DLL sidesteps it. This scope does NOT apply
+# to the wasm32 target used for real contract builds/deploys.
+[target.x86_64-pc-windows-gnu]
+rustflags = ["-C", "link-args=-Wl,--exclude-all-symbols"]
