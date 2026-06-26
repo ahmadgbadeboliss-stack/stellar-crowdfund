@@ -20,3 +20,6 @@ rustup-init.exe
 contracts/deploy_*.log
 
 # Keep lockfiles and wasm-less build outputs out but track configs
+
+# Vite/TS build info
+frontend/tsconfig.tsbuildinfo
