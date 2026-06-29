@@ -1,0 +1,28 @@
+{
+  "network": "testnet",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "rpcUrl": "https://soroban-testnet.stellar.org",
+  "horizonUrl": "https://horizon-testnet.stellar.org",
+  "contracts": {
+    "rewardToken": {
+      "contractId": "CBHFZFWUO22CZ74LXNZVU6AP2LCI3YEYYQ43RCP77IBS34PBLNF7GZW7",
+      "deployTxHash": "99a639a6e376dd6659f758d510bef720cb9588ea86e9456081962087d69cb949",
+      "wasmHash": "5cdebe2f1966381752b4db08702ff9a8b2b99a271c91bf532d66801c733d1f7e"
+    },
+    "crowdfund": {
+      "contractId": "CDBLYYBCBWN5ZRBSKK5764E7VQIQQSTD2GVB4WSAZW7L3ABNI4GM7KDP",
+      "deployTxHash": "9f5d0e2a147c465fd1b2a000442889af9c183b87ab6b79f2c5e69bf8eec0ff6a"
+    }
+  },
+  "admin": "GBIYZWNE6HGKGGT2G73W6F7ZXXRQ2LP3RGLYIOOTZH6557A3EEBB4S7D",
+  "sampleInteractions": {
+    "initRewardToken": "fc055d4dccb8c0d2e18eeb4d47c2c5006e2406a6dc09ab8c41e6fd71fd6b624a",
+    "initCrowdfund": "038f15777a70a3641d84bcca5e678c2dcd9c9a1be7cab547dd682bb98640f93c",
+    "pledgeWithCrossContractMint": "15b516d136c93f088b7c793597ffff299d79a40342d58410b5b30fe0c86e1c1c"
+  },
+  "explorer": {
+    "crowdfundContract": "https://stellar.expert/explorer/testnet/contract/CDBLYYBCBWN5ZRBSKK5764E7VQIQQSTD2GVB4WSAZW7L3ABNI4GM7KDP",
+    "rewardTokenContract": "https://stellar.expert/explorer/testnet/contract/CBHFZFWUO22CZ74LXNZVU6AP2LCI3YEYYQ43RCP77IBS34PBLNF7GZW7",
+    "pledgeTx": "https://stellar.expert/explorer/testnet/tx/15b516d136c93f088b7c793597ffff299d79a40342d58410b5b30fe0c86e1c1c"
+  }
+}
