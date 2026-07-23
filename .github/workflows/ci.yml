@@ -46,11 +46,11 @@ jobs:
       - name: Run contract tests
         run: cargo test --all
 
-      - name: Install Stellar CLI
-        run: cargo install --locked stellar-cli --version 22.0.1 || cargo install --locked stellar-cli
-
-      - name: Build optimized WASM
-        run: stellar contract build
+      - name: Build release WASM
+        # Build the contracts directly against the Soroban wasm target.
+        # This avoids compiling stellar-cli from source in CI, which is slow
+        # and brittle on hosted runners (missing system libs like libdbus).
+        run: cargo build --all --target wasm32v1-none --release
 
       - name: Upload WASM artifacts
         uses: actions/upload-artifact@v4
