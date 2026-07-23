@@ -18,7 +18,7 @@ backers reclaim their pledges.
 
 | What | Value |
 |------|-------|
-| **Live demo** | `⟶ TODO: paste Vercel URL after deploy` |
+| **Live demo** | https://stellar-crowdfund-gilt.vercel.app |
 | **Demo video (1–2 min)** | `⟶ TODO: paste video link` |
 | **Network** | Stellar **Testnet** |
 | **Crowdfund contract** | [`CDBLYYBCBWN5ZRBSKK5764E7VQIQQSTD2GVB4WSAZW7L3ABNI4GM7KDP`](https://stellar.expert/explorer/testnet/contract/CDBLYYBCBWN5ZRBSKK5764E7VQIQQSTD2GVB4WSAZW7L3ABNI4GM7KDP) |
