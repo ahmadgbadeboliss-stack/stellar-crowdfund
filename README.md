@@ -19,7 +19,7 @@ backers reclaim their pledges.
 | What | Value |
 |------|-------|
 | **Live demo** | https://stellar-crowdfund-gilt.vercel.app |
-| **Demo video (1–2 min)** | `⟶ TODO: paste video link` |
+| **Demo video (1–2 min)** | https://www.loom.com/share/97bf2328c8b34b008c100182743dff79 |
 | **Network** | Stellar **Testnet** |
 | **Crowdfund contract** | [`CDBLYYBCBWN5ZRBSKK5764E7VQIQQSTD2GVB4WSAZW7L3ABNI4GM7KDP`](https://stellar.expert/explorer/testnet/contract/CDBLYYBCBWN5ZRBSKK5764E7VQIQQSTD2GVB4WSAZW7L3ABNI4GM7KDP) |
 | **Reward-token contract** | [`CBHFZFWUO22CZ74LXNZVU6AP2LCI3YEYYQ43RCP77IBS34PBLNF7GZW7`](https://stellar.expert/explorer/testnet/contract/CBHFZFWUO22CZ74LXNZVU6AP2LCI3YEYYQ43RCP77IBS34PBLNF7GZW7) |
